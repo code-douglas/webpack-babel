@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "dev": "NODE_ENV=development webpack  --progress --watch"
+    "dev": "NODE_ENV=development webpack  --progress --watch",
+    "production": "NODE_ENV=production webpack  --progress --watch"
   },
   "devDependencies": {
     "@babel/cli": "^7.25.9",
